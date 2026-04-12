@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build
+astro/dist/
+astro/.astro/
+astro/.vercel/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Strapi
+strapi/node_modules/
+strapi/.cache/
+strapi/build/
+strapi/dist/
+strapi/.tmp/
+strapi/.strapi/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
